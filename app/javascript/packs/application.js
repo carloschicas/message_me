@@ -16,3 +16,7 @@ import '@doabit/semantic-ui-sass'
 
 // if you wan't to use custom variables, you should import custom styelesheet
 import 'stylesheets/semantic-ui.scss'
+
+$(document).on('turbolinks:load', function(){
+    $('.ui.dropdown').dropdown();
+})
