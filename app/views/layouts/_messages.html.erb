@@ -1,6 +1,6 @@
-<% flash.each do |name, msg| %>
-  <div class="ui <%= name == "notice" ? "info" : "warning" %> message">
+<% flash.each do |message_type, message| %>
+  <div class="ui <%= message_type %> message">
     <i class="close icon"></i>
-    <%= msg %>
+    <%= message %>
   </div>
 <% end %>
