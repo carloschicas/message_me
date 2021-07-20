@@ -5,3 +5,8 @@ $import-google-fonts: false !default;
 .chatbox {
   height: 450px;
 }
+
+#messages {
+  height: 15em;
+  overflow: auto;
+}
