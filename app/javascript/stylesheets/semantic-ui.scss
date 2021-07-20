@@ -10,3 +10,7 @@ $import-google-fonts: false !default;
   height: 15em;
   overflow: auto;
 }
+
+.input button {
+  display: none;
+}
